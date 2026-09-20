@@ -1,0 +1,15 @@
+# Dependencies for the MNIST handwritten digit classification project.
+#
+# Lower bounds are used instead of hard pins on purpose: the exact TensorFlow
+# build that is compatible depends on your Python version and platform. To
+# reproduce the *exact* environment that produced the results in this repo, run
+# the command printed at the end of the notebook (or of src/train_model.py),
+# which reports the installed versions via `pip freeze`.
+
+tensorflow>=2.13
+numpy>=1.24
+matplotlib>=3.7
+pandas>=2.0
+scikit-learn>=1.3
+jupyter>=1.0
+notebook>=7.0

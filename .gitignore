@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Generated model artefacts are large binaries.
+# The notebook / training script regenerate them, so they are not committed.
+models/*.keras
+models/*.h5
+
+# TensorFlow / Keras local caches
+.keras/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# NOTE
+# The PNG figures and metrics files under results/ are intentionally NOT
+# ignored: they are the evidence of the actual run and belong in the repo.
