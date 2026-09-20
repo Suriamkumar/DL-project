@@ -1,1 +1,3 @@
+# The trained model (mnist_model.keras) is written here when the notebook or
+# src/train_model.py is executed. Model binaries are git-ignored on purpose.
 
